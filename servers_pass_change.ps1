@@ -3,4 +3,4 @@
 .\get_servers.ps1
 echo "*** Default inputfile will be servers.txt ***"
 # run script to change server passwords
-.\test2.ps1
+.\change_password_script.ps1
