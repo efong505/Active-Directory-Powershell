@@ -22,3 +22,4 @@ It's very simple.
 5. Repeat the password
 
 That's it. Machine passwords are changed. 
+
