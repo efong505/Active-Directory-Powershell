@@ -13,4 +13,4 @@ if (-not $InputFile) {
 if (-not (Test-Path -LiteralPath $InputFile -PathType Leaf)) {
     throw "Server list not found: $InputFile"
 }
-& (Join-Path $PSScriptRoot 'change_password_script.ps1') -InputFile $InputFile -OutputDirectory $OutputDirectory -LocalAccount $LocalAccount -WhatIf:$WhatIfPreference -Confirm:$false
+& (Join-Path $PSScriptRoot 'change_password_script.ps1') -InputFile $InputFile -OutputDirectory $OutputDirectory -LocalAccount $LocalAccount -WhatIf:$WhatIfPreference
